@@ -8,7 +8,6 @@
     background-image: url(background.jpg);
     background-position: center;
     height: 100vh;
-    font-family: Arial;
     
 }
 
@@ -21,7 +20,7 @@
 .logo{
     color:rgb(209, 151, 6);
     font-size: 40px;
-    font-family: Arial;
+    font: Arial;
     float: left;
     padding-top: .6%;
     cursor: pointer;
@@ -50,7 +49,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color:rgb(0, 0, 0);
-    font-family: Arial;
+    font: Arial;
     font-weight: bold;
     transition: .5s ease;
 }
@@ -69,7 +68,7 @@ ul li a:hover{
 
 .title h1{
     cursor: pointer;
-    font-family: cursive;
+    font: cursive;
     color:floralwhite;
     font-size: 85px;
 }
@@ -96,7 +95,7 @@ ul li a:hover{
 
 
   
-  .overlay1 {
+  .lay1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -108,14 +107,14 @@ ul li a:hover{
     
   }
 
-  .overlay1 img {
+  .lay1 img {
     position: relative;
     width: 90%;
     height: 50%;
     top: 40%;
   }
 
-  .overlay2 {
+  .lay2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -127,18 +126,18 @@ ul li a:hover{
     
   }
 
-  .overlay2 img {
+  .lay2 img {
     position: relative;
     width: 90%;
     height: 30%;
     top: 40%;
   }
-  .overlay2 h2 {
+  .lay2 h2 {
     color: #000;
     font-size: 36px;
     font-weight: bold;
   }
-  .overlay {
+  .lay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -149,20 +148,20 @@ ul li a:hover{
     text-align: center;
     
   }
-  .overlay h2 {
+  .lay h2 {
     color: #000;
     font-size: 36px;
     font-weight: bold;
   }
   
-  .overlay1 h2 {
+  .lay1 h2 {
     color: #000;
     font-size: 36px;
     font-weight: bold;
   }
 
   
-  .overlay p {
+  .lay p {
     color: #000;
     font-size: 24px;
     margin-top: 20px;
@@ -195,7 +194,7 @@ ul li a:hover{
     cursor: pointer;
   }
 
-  .overlay iframe {
+  .lay iframe {
     position: relative;
     width: 70%;
     height: 50%;
