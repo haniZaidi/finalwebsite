@@ -73,6 +73,7 @@ ul li a:hover{
     font-size: 85px;
 }
 
+
 .p-welcome{
     top: 30%;
     left: 0%;
@@ -93,7 +94,10 @@ ul li a:hover{
 }
 
 
+/* a lot of the ideas for this overlay came from https://www.youtube.com/watch?v=jAXF7oS0RB4&pp=ygUfaG93IHRvIG1ha2UgYW4gb3ZlcmxheSBodG1sIGNzcw%3D%3D
+and https://www.youtube.com/watch?v=AollDs0nejo&pp=ygUfaG93IHRvIG1ha2UgYW4gb3ZlcmxheSBodG1sIGNzcw%3D%3D*/
 
+/* navbar is very simple version of https://www.youtube.com/watch?v=FazgJVnrVuI&ab_channel=BrianDesign */
   
   .lay1 {
     position: absolute;
@@ -168,7 +172,7 @@ ul li a:hover{
   }
  /*Made using this https://www.youtube.com/watch?v=Y7s32aIaxRU&pp=ygUaaG93IHRvIG1ha2UgYSBmb3JtIHdlYnBhZ2U%3D and
  https://formsubmit.co/
- followed this video https://www.youtube.com/watch?v=r4RQ38EoLds&t=504s&pp=ygUKZm9ybXN1Ym1pdA%3D%3D    */
+ followed this video to combine https://www.youtube.com/watch?v=r4RQ38EoLds&t=504s&pp=ygUKZm9ybXN1Ym1pdA%3D%3D    */
   form{
     background: #341ba3;
     position: relative;
