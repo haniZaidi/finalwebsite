@@ -7,7 +7,6 @@
     width: 100%;
     background-image: url(background.jpg);
     background-position: center;
-    background-size: cover;
     height: 100vh;
     font-family: Arial;
     
@@ -20,9 +19,9 @@
 }
 
 .logo{
-    color:darkgoldenrod;
+    color:rgb(209, 151, 6);
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     float: left;
     padding-top: .6%;
     cursor: pointer;
@@ -77,9 +76,8 @@ ul li a:hover{
 
 .p-welcome{
     top: 30%;
-    left: 50%;
+    left: 0%;
     position: relative;
-    transform: translate(-50%, -50%);
     margin-top: 20px;
     font-weight: bold;
     color: floralwhite;
@@ -87,11 +85,11 @@ ul li a:hover{
 }
 
 .p-words{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 30%;
+    left: 0%;
     font-size: 25px;
+    padding: 5%;
     color:floralwhite;
 }
 
